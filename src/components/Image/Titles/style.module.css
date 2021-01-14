@@ -1,0 +1,32 @@
+.image-params-cointainer {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.phone-txt-image {
+  display: inline;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+  .phone-txt-image {
+    display: none;
+  }
+
+  .image-params-cointainer {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 374px) {
+  .phone-txt-image {
+    display: none;
+  }
+
+  .image-params-cointainer {
+    margin-top: 0px;
+    text-align: center;
+  }
+}

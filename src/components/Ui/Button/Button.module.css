@@ -1,0 +1,133 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  -webkit-appearance: button;
+  overflow: visible;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary-long {
+  width: 100%;
+  background-color: #009846;
+  color: #ffffff;
+  border-radius: 0;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 0;
+  font-family: Arial;
+  padding-left: 30px;
+}
+
+.btn-primary-long:hover {
+  background-color: #1c7244;
+}
+
+.btn-primary-long:active {
+  background-color: #1c7244;
+}
+
+.btn-primary-long:not(:disabled):not(.disabled):active,
+.show > .btn-primary-long.dropdown-toggle {
+  color: #fff;
+  background-color: #1c7244;
+  border-color: #1c7244;
+}
+
+.btn-primary {
+  background-color: #009846;
+  color: #ffffff !important;
+  border: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 35px 10px 35px !important;
+}
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary-large.focus,
+.btn-primary-large:focus,
+.btn-primary-long.focus,
+.btn-primary-long:focus {
+  color: #fff;
+  background-color: #1c7244;
+  border-color: #1c7244;
+  box-shadow: 0 0 0 0.2rem rgb(0, 152, 70);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #1c7244;
+  border-color: #1c7244;
+}
+.btn-primary-large:hover {
+  background-color: #1c7244;
+}
+
+.btn-primary-large:not(:disabled):not(.disabled):active,
+.show > .btn-primary-large.dropdown-toggle {
+  color: #fff;
+  background-color: #1c7244;
+  border-color: #1c7244;
+}
+
+.btn-primary:hover {
+  background-color: #1c7244;
+}
+.btn-primary-large:active {
+  background-color: #1c7244;
+}
+
+.btn-primary:active {
+  background-color: #1c7244;
+}
+.btn-primary-large {
+  width: 100%;
+  background-color: #009846;
+  color: #ffffff !important;
+  border: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 35px 10px 35px !important;
+}
+
+.btn-info {
+  background-color: #00a4d3;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 35px 10px 35px;
+}
+
+.btn-info:hover {
+  background-color: #1795b9;
+}
+.btn-info:active {
+  background-color: #1795b9;
+}
+
+.btn-fit-width-content {
+  min-width: fit-content;
+}
+
+.btn-fit-height-content {
+  min-height: fit-content;
+}

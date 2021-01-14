@@ -1,0 +1,17 @@
+.image-in-text {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+.history-ul {
+  color: #42424a;
+  font-family: Arial;
+  font-size: 18px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 425px) {
+  .image-in-text {
+    width: 50%;
+  }
+}

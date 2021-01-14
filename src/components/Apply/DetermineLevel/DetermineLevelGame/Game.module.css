@@ -1,0 +1,116 @@
+.game-content {
+  position: absolute;
+  clip: rect(240px, 1010px, 850px, 124px);
+  top: -240px;
+  left: 0;
+}
+
+.game-modal-fix > div > div > div:last-child {
+  height: 720px;
+}
+
+.game-box > iframe {
+  border: none;
+}
+
+@media only screen and (max-width: 1199px) {
+  .game-box > iframe {
+    height: 1200px;
+  }
+
+  .game-content {
+    position: absolute;
+    clip: rect(240px, 735px, 1200px, 70px);
+    top: -240px;
+    left: 0;
+  }
+
+  .game-modal-fix > div > div > div:last-child {
+    height: 1060px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .game-box > iframe {
+    height: 925px;
+  }
+
+  .game-content {
+    position: absolute;
+    clip: rect(240px, 481px, 925px, 13px);
+    top: -240px;
+    left: 0;
+  }
+
+  .game-modal-fix > div > div > div:last-child {
+    height: 830px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .game-box > iframe {
+    height: 1007px;
+  }
+
+  .game-content {
+    position: absolute;
+    clip: rect(240px, 541px, 1007px, 13px);
+    top: -240px;
+    left: 0;
+  }
+
+  .game-modal-fix > div > div > div:last-child {
+    height: 915px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .game-box > iframe {
+    height: 834px;
+  }
+
+  .game-content {
+    position: absolute;
+    clip: rect(240px, 399px, 834px, 8px);
+    top: -240px;
+    left: 0;
+  }
+
+  .game-modal-fix > div > div > div:last-child {
+    height: 740px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .game-box > iframe {
+    height: 731px;
+  }
+
+  .game-content {
+    position: absolute;
+    clip: rect(240px, 335px, 731px, 8px);
+    top: -240px;
+    left: 0;
+  }
+
+  .game-modal-fix > div > div > div:last-child {
+    height: 640px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .game-box > iframe {
+    height: 655px;
+  }
+
+  .game-content {
+    position: absolute;
+    clip: rect(240px, 294px, 655px, 8px);
+    top: -240px;
+    left: 0;
+  }
+
+  .game-modal-fix > div > div > div:last-child {
+    height: 560px;
+  }
+}

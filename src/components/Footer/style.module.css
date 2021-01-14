@@ -1,0 +1,63 @@
+.main-footer {
+  background-color: #ececec;
+  padding: 25px 0;
+}
+
+.fb-plugin-box > iframe {
+  border: 0;
+}
+
+.link-style:hover {
+  color: #42424a;
+}
+
+.contact-us-icons {
+  margin-right: 10px;
+  color: #42424a;
+}
+
+.courses-title {
+  margin-bottom: 0.5rem;
+}
+
+.courses-options {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-block-start: -0.2rem;
+  margin-block-end: 0.5rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.footer-btn-apply {
+  width: 340px;
+}
+
+.main-footer > div > div > div {
+  margin: 15px auto;
+  max-width: max-content;
+}
+
+@media (min-width: 992px) {
+  .main-footer > div > div > div {
+    margin: 15px 0px;
+    max-width: max-content;
+  }
+}
+
+@media (max-width: 367px) {
+  .footer-btn-apply {
+    max-width: 290px !important;
+  }
+
+  .fb-plugin-box {
+    padding: 0px;
+    margin: 15px auto;
+  }
+}
+@media (max-width: 339px) {
+  .fb-plugin-box > iframe {
+    width: 320px;
+  }
+}

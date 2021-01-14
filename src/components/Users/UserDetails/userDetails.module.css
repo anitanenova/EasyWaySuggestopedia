@@ -1,0 +1,26 @@
+.user-image {
+  width: 250px;
+  height: 250px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin: 20px;
+}
+.user-details-box {
+  padding: 15px;
+}
+
+.user-position {
+  color: #009846;
+}
+
+@media screen and (max-width: 575px) {
+  .user-box {
+    height: auto;
+  }
+  .user-details-box {
+    padding: 15px;
+    float: right;
+  }
+}

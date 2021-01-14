@@ -1,0 +1,46 @@
+.determine-level-box {
+  background: #fff;
+  transition: all 0.3s ease;
+  height: 230px;
+  width: 230px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 5px 0;
+  overflow: hidden;
+  text-align: center !important;
+  padding: 25px;
+  border-radius: 0;
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.35);
+  text-align: justify;
+  cursor: pointer;
+}
+
+.determine-level-box:hover {
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.65);
+}
+
+.determine-level-box > svg {
+  width: 100% !important;
+}
+
+.determine-level-box > p {
+  margin-bottom: 0;
+}
+
+.determine-level-container {
+  display: flex;
+  justify-content: center;
+}
+
+.determine-level-container > a:hover {
+  text-decoration: none;
+}
+
+.determine-level-container > a:focus {
+  outline: none;
+}

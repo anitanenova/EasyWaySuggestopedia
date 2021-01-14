@@ -1,0 +1,11 @@
+.img-box > img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  margin: 10px 0px;
+  max-width: 300px;
+}
+
+.img-box {
+  padding: 0;
+}

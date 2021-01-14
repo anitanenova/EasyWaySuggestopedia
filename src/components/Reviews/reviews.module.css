@@ -1,0 +1,15 @@
+.next-icon,
+.prev-icon {
+  color: #000000;
+}
+
+.carousel-indicators li {
+  background-color: #000000;
+}
+
+.carousel-indicators > ol > li {
+  background-color: #000000;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}

@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "easyway-fb88e",
+    "build": "easyway-fb88e",
+    "y": "easyway-fb88e",
+    "staging": "easyway-fb88e-e40d9"
+  }
+}

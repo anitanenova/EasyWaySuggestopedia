@@ -1,0 +1,57 @@
+html,
+body,
+#app,
+#app > div {
+  height: 100%;
+}
+
+.margin-big {
+  margin: 25px;
+}
+
+.margin-left-right-big {
+  margin: 0 25px;
+}
+
+.margin-bottom-big-lg {
+  margin-bottom: 50px;
+}
+
+.margin-bottom-1rem {
+  margin-bottom: 1rem;
+}
+
+.questions-type-courses > li {
+  list-style-type: decimal;
+  color: #42424a;
+  font-family: Arial;
+  font-size: 18px;
+  margin-bottom: 0.2rem;
+}
+
+.margin-bottom-big-md {
+  margin-bottom: 25px;
+}
+
+.margin-bottom-big {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-medium-md {
+  margin-bottom: 15px;
+}
+
+.error-container {
+  color: red;
+}
+.success-container {
+  color: green;
+}
+@media (max-width: 990px) {
+  .margin-bottom-big-sm {
+    margin-bottom: 25px;
+  }
+}
+a:hover {
+  cursor: pointer;
+}

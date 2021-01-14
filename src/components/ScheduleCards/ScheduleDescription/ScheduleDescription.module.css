@@ -1,0 +1,31 @@
+.schedule-details-box {
+  padding: 5px 10px;
+}
+
+.schedule-details-box > p {
+  margin-bottom: 10px;
+}
+
+.schedule-details-icon {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .schedule-details-box > p {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .schedule-details-box > p.txt-title-small {
+    font-size: 18px;
+  }
+
+  .schedule-details-box > p.txt-title-medium {
+    font-size: 20px;
+  }
+
+  .schedule-details-box > p.txt-title-big {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,16 @@
+.choise-group-container {
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .choise-group-container {
+    height: 70vh;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .choise-group-container {
+    height: 70vh;
+  }
+}

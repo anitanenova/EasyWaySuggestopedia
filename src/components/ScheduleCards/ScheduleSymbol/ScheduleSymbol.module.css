@@ -1,0 +1,17 @@
+.schedule-symbol {
+  background-color: #6ecbe6;
+  color: #ffffff;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  min-height: -webkit-fill-available;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.schedule-symbol > span {
+  font-size: 40px;
+  font-family: "Arial";
+  font-weight: bold;
+}
