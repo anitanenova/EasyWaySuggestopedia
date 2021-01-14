@@ -1,3 +1,24 @@
+# EasyWaySuggestopedia
+
+This project is made for "Easy Way" Suggestopedia center.
+
+It represent a website who includes:
+<ul>
+  <li><p>Home page</p></li>
+  <li><p>Course page</p></li>
+  <li><p>Schedule page</p></li>  
+  <li><p>Contacts pages</p></li>  
+  <li><p>Applying for a course pages</p>
+  <ul>
+    <li>game for level determination</li>
+    <li>choosing a course</li>
+  </ul>
+  </li>
+  <li><p>Pages with more information</p></li>
+</ul>
+
+_________________________________________________________________________________________________________________________________________________________________________________
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
