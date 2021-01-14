@@ -65,18 +65,6 @@ const Menu = React.memo(() => {
           alt="logo.png"
         />
       </Nav.Link>
-      <div>
-        <Nav.Link href="tel:+359899521504" className={`${style["btn-call"]} `}>
-          <FontAwesomeIcon icon={faPhoneAlt} size="lg" />
-        </Nav.Link>
-        <Navbar.Toggle
-          className={toggleClasses.join(" ")}
-          aria-controls="basic-navbar-nav"
-        >
-          <FontAwesomeIcon icon={faBars} size="lg" />
-        </Navbar.Toggle>
-      </div>
-
       <Navbar.Collapse id="basic-navbar-nav" className={style["toggle-menu"]}>
         <Nav className={navClasses.join(" ")}>
           <NavDropdown
@@ -159,6 +147,17 @@ const Menu = React.memo(() => {
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
+      <div>
+        <Nav.Link href="tel:+359899521504" className={`${style["btn-call"]} `}>
+          <FontAwesomeIcon icon={faPhoneAlt} size="lg" />
+        </Nav.Link>
+        <Navbar.Toggle
+          className={toggleClasses.join(" ")}
+          aria-controls="basic-navbar-nav"
+        >
+          <FontAwesomeIcon icon={faBars} size="lg" />
+        </Navbar.Toggle>
+      </div>
     </Navbar>
   );
 });

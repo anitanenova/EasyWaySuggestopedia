@@ -24,5 +24,11 @@
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: contents !important;
+    align-items: center;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    align-items: center;
   }
 }

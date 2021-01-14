@@ -13,10 +13,6 @@ const apply = (props: IApplyProps) => {
     ["nav-btn-menu"],
     style["btn-apply-special-width"],
     ["btn"],
-    ["margin-bottom-big-sm"],
-    ["margin-left-right-big"],
-    ["btn-fit-width-content"],
-    ["btn-fit-height-content"],
     ["btn-primary"],
   ];
 
